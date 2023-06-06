@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2? family= Inter:wght@100;200;300;400;500;600 & family= Roboto+Slab:wght@300 & display= trocar');
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+
+}
+.topo{
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 13%;
+    background-color: #35A1EA;
+    border-bottom: 2px solid black;
+    
+}
+.topo img{
+    margin-left: 1%;
+    cursor: pointer;
+}
+#menu ul{
+    font-size: 20px;
+    text-align:absolute;
+    margin-top: 6%;
+    list-style: none;
+    padding: 0;
+    background-color: #c6f44b;
+    border-bottom: 2px solid black;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+#menu ul li{
+    display: inline;
+    margin: 0 20px;
+
+}
+#menu ul li a{
+    color: black;
+    text-decoration: none;
+    padding: 18px ;
+    display: inline-block;
+    transition: 1s;
+    margin-left: 20px;
+   
+    
+}
+#menu ul li a:hover{
+    background-color: #83aa17;   
+}
+#menu ul li:last-child a{
+    float: right;
+    background-color: black;
+    color: #c6f44b;
+    
+}
+#menu ul li:last-child a:hover{
+    float: right;
+    background-color: #c6f44b;
+    color: #000000;
+    transition: 1.8s;
+    
+}
+#imagem-inicio .imagem-inicio-h img{
+position: absolute;
+    width: 100%;
+    height: 80%;
+
+}  
+#imagem-inicio .imagem-inicio-h button{
+    position: relative;
+    margin-left: 83%;
+    margin-top: 29%;
+    font-size: 17px;
+    background-color: #b2dd3a;
+
+
+}
+#imagem-inicio .imagem-inicio-h button:hover{
+    position: relative;
+    margin-left: 83%;
+    margin-top: 29%;
+    font-size: 17px;
+    background-color:#caf555;
+    cursor: pointer;
+}   
+.um{
+    
+    margin-top: 5%;
+    text-align: center;
+} 
+.dois
+{
+    justify-content: center;
+    width: 280px;
+    height: 2px;
+    background: #83aa17;
+}
+#txt fieldset{
+
+    margin-top: 3%;
+    height: 700px;
+    width: 35%;
+    border: none;
+    padding: 25px;
+ 
+}
+#sobrenos h4
+{
+
+    color: #080808;
+    font-size: 15px;
+    position: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.intro
+{
+
+    color: #080808;
+    font-size: 15px;
+    position: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.tres{
+    margin-top: 10%;
+    text-align: center;
+}
+.quatro{
+    justify-content: center;
+    width: 255px;
+    height: 2px;
+    background: #83aa17;
+}
+#apoie-a-causa fieldset{
+    margin-left: 5%;
+    margin-top: 10%;
+    height: 350px;
+    width: 27%;
+    border: none;
+    padding: 15px;
+    display: inline-block;
+    box-shadow: 1px 1px 3px 0px;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+#apoie-a-causa fieldset:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+#apoie-a-causa img{
+    width: 100%;
+    height: 60%;
+}
+#apoie-a-causa h4 a{
+    text-decoration: none;
+    font-size: 18px;
+    color:#83aa17;
+    font-weight: 700;
+}
+#apoie-a-causa button{
+    margin-top: 9%;
+    font-weight: 700;
+    padding: 5px 130px;
+    border: none;
+    background-color: #b2dd3a;
+}
+#apoie-a-causa button:hover{
+    background-color: #caf555;
+    cursor: pointer;
+
+}
+#anuncios fieldset{
+    margin-left: 5%;
+    margin-top: 10%;
+   
+    height: 350px;
+    width: 27%;
+    border: none;
+    padding: 15px;
+    display: inline-block;
+    box-shadow: 1px 1px 3px 0px;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+#anuncios fieldset:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+#anuncios img{
+    width: 100%;
+    height: 60%;
+    
+}
+#anuncios h4 a{
+    text-decoration: none;
+    color:#83aa17;
+    font-weight: 700;
+    text-align: center;
+}
+#anuncios h4 a:hover{
+    color: #485e0c;
+
+}
+#anuncios button{
+    margin-top: 13%;
+    margin-left: 30%;
+    padding: 20px 35px;
+    background-color: #b2dd3a;
+    font-size: 15px;
+    font-weight: 700;
+
+    border: none;
+}
+#anuncios button:hover{
+    background-color: #caf555;
+    cursor: pointer;
+}
+.cinco{
+    justify-content: center;
+    width: 160px;
+    height: 2px;
+    background: #83aa17;
+}
+.seis{
+    margin-top: 10%;
+    text-align: center;
+}
+.rede-social-bloco{
+    margin-left: 30%;
+}
+.rede-social-bloco img{
+    width: 60%;
+    height: 10%;
+}
+.sete{
+    margin-top: 15%;
+    text-align: center;
+}
+.oito{
+    justify-content: center;
+    width: 200px;
+    height: 2px;
+    background: #83aa17;
+    margin-bottom: 60px;
+}
+footer{
+    background-color: #c6f44b;
+    
+    
+}
+#footer-content{
+    display: grid;
+    grid-template-columns: repeat(4, 0.3fr);
+    padding: 3.5rem 4.5rem;
+
+}
+#footer-content ul li{
+    margin-bottom: 5px;
+}
+#footer-content h3 {
+    margin-bottom: 10px;
+}
+#contatos i{
+    color: #080808;
+    font-size: 13px;
+}
+#footer-inicio ul{
+    list-style: none;
+
+}
+#footer-sobre-a-ong ul{
+    list-style: none;
+    
+    
+}
+#footer-suport ul{
+    list-style: none;
+    
+}
+#footer-content ul li a {
+    text-decoration: none;
+    color: #485e0c;
+}
+#footer-content ul li a:hover{
+    text-decoration: none;
+    color: #080808;
+}
+#footer-copyright{
+    display: flex;
+    justify-content: center;
+    font-size: 0.7rem;
+    color: #384909;
+    padding: 0.9rem;
+    background-color:#83aa17;
+    font-weight: 100;
+}

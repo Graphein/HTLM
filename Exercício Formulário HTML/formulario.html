@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Login</title>
+</head>
+<body>
+
+	<h1>Cadastro de Perfil de Cliente</h1>
+    
+	<form name="Cadastro de Perfil de Cliente">
+
+		<label for="nome">Nome:</label>
+		<input type="nome" placeholder="Informe o nome do cliente..." id="nome" name="nome">
+        <br>
+        <label for="area">Área de Interesse:</label>
+		<input type="text" placeholder="Informe a área de Interesse" id="area" name="area">
+        <br>
+        <label for="telefone">Telefone:</label>
+		<input type="text" placeholder="(xx)xxxxx-xxxx" pattern="\d{5}-?\d{3}" title="99999-999" id="telefone" name="telefone">
+        <br>
+        <label for="Comentários">Comentários:</label> <br>
+		<textarea placeholder="Digite algo aqui..." id="Comentários" name="Comentários"></textarea>
+        <br>
+        <BUtton type="reset">Limpar</BUtton>
+        <BUtton type="buttom" onclick="alert('Dados Armazenados')">Gravar</BUtton>
+	</form>
+</body>
+</html>

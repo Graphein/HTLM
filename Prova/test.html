@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Prova Formulario</title>
+</head>
+<body>
+    <header>
+        <h1>Prova Formulario</h1>
+    </header>
+    <form method="post" action="enviar.php">
+             <label type="nick">Nome:</label>
+             <input type="text" name="nick" id="nick" placeholder="Nome"required><br>
+             <label type="Sobrenome">Sobrenome:</label>
+             <input type="text" name="" id="Sobrenome" placeholder="Sobrenome"required><br>
+             <label type="Email">Email:</label>
+             <input type="text" name="email" id="email" placeholder="Digite Seu Email" required><br>
+             <label type="Telefone">Telefone</label>
+             <input type="text" name="Telefone" id="telefone" placeholder="(XX)xxxxx-xxxx"required><br>
+             <label class="botão">Salvar</label>
+             <input type="submit" name="Salvar" onclick="alert('Dados Salvo')"><br>
+    </form>
+</body>
+</html>

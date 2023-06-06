@@ -1,0 +1,41 @@
+h1
+{
+    text-align: center;
+
+}
+form
+{
+
+    margin: 50px auto;
+    padding: 35px;
+    max-width: 600px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+label
+{
+
+    margin-bottom: 20px;
+    font-size: arial;
+
+}
+input[type=text], textarea
+{
+    font-size: arial;
+    margin-bottom: 20px;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+input[type = submit]
+{
+
+    padding: 10px;
+    border: 2px green;
+}
+input[type = botão]:hover
+{
+
+    padding: 10px;
+    border: 2px green;
+
+}

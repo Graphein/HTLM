@@ -1,0 +1,46 @@
+h1
+{
+
+    text-align: center;
+}
+form 
+{
+    
+    margin: 50px auto;
+    width: 80%;
+    padding: 35px;
+    max-width: 600px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+label 
+{
+    margin-bottom: 20px;
+    font-size: arial;
+}
+
+input[type=text], input[type=email], textarea 
+{
+    font-size: arial;
+    margin-bottom: 20px;
+    width: 100%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+
+button[type=submit] 
+{
+    
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+
+button[type=submit]:hover 
+{
+    background-color: #3e8e41;
+}

@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2? family= Inter:wght@100;200;300;400;500;600 & family= Roboto+Slab:wght@300 & display= trocar');
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+
+}
+#menu ul{
+    margin-top: 6%;
+    list-style: none;
+    padding: 0;
+    background-color: #c6f44b;
+
+}
+#menu ul li{
+    display: inline;
+
+
+}
+#menu ul li a{
+    color: black;
+    text-decoration: none;
+    padding: 18px ;
+    display: inline-block;
+    transition: 1s;
+    margin-left: 20px;
+    
+    
+}
+#menu ul li a:hover{
+    background-color: #83aa17;   
+}
+#menu ul li:last-child a{
+    float: right;
+    background-color: black;
+    color: #c6f44b;
+    
+}
+#menu ul li:last-child a:hover{
+    float: right;
+    background-color: #c6f44b;
+    color: #000000;
+    transition: 1.8s;
+    
+}
+
+.topo{
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 13%;
+    background-color: #35A1EA;
+    
+}
+.topo img{
+    margin-left: 1%;
+    cursor: pointer;
+}
+
+main{
+    height: 100vh;
+}
+.container-blocks{
+    text-align: center;
+}
+.container-blocks div{
+    display: inline-block;
+   padding: 210px 150px;
+    margin-top: 10%;
+    transition: transform 0.3s;
+    margin-right: 6%;
+    position: relative;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);;
+}
+.container-blocks div:last-child{
+    margin-right: 0;
+}
+.block-inicioum{
+        position: absolute;
+        
+        background-image: url("amazonia.jpg");
+        background-size: 100% 60%;
+        background-repeat: no-repeat;
+        background-position: top;
+        display: flex;
+
+}
+.block-iniciodois{
+        position: absolute;
+            
+        background-image: url("praia.jpg");
+        background-size: 100% 60%;
+        background-repeat: no-repeat;
+        background-position: top;
+        display: flex;
+}
+.block-iniciotres{
+        position: absolute;
+                
+            background-image: url("tiete.jpg");
+            background-size: 100% 60%;
+            background-repeat: no-repeat;
+            background-position: top;
+            display: flex;
+}
+
+
+
+
+
+
+
+footer{
+    background-color: #c6f44b;
+    
+    
+}
+#footer-content{
+    display: grid;
+    grid-template-columns: repeat(4, 0.3fr);
+    padding: 3.5rem 4.5rem;
+
+}
+#footer-content ul li{
+    margin-bottom: 5px;
+}
+#footer-content h3 {
+    margin-bottom: 10px;
+}
+#contatos i{
+    color: #080808;
+    font-size: 13px;
+}
+#footer-inicio ul{
+    list-style: none;
+
+}
+#footer-sobre-a-ong ul{
+    list-style: none;
+    
+    
+}
+#footer-suport ul{
+    list-style: none;
+    
+}
+#footer-content ul li a {
+    text-decoration: none;
+    color: #485e0c;
+}
+#footer-content ul li a:hover{
+    text-decoration: none;
+    color: #080808;
+}
+#footer-copyright{
+    display: flex;
+    justify-content: center;
+    font-size: 0.7rem;
+    color: #384909;
+    padding: 0.9rem;
+    background-color:#83aa17;
+    font-weight: 100;
+}

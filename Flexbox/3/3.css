@@ -1,0 +1,48 @@
+.container 
+{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center; /* Alinha as caixas verticalmente ao centro */
+}
+
+.box 
+{
+  height: 100px;
+}
+
+.box1 
+{
+  width: 50px;
+  background-color: red;
+}
+
+.box2 
+{
+  width: 80px;
+  background-color: blue;
+}
+
+.box3 
+{
+  width: 120px;
+  background-color: green;
+}
+
+.box4 
+{
+  width: 100px;
+  background-color: yellow;
+}
+
+.box5 
+{
+  width: 70px;
+  background-color: orange;
+}
+
+.box6 
+{
+  width: 90px;
+  background-color: purple;
+}

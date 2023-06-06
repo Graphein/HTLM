@@ -1,0 +1,48 @@
+.container
+{
+    display: flex;
+    justify-content: center;
+}
+.lista1
+{
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    margin: 5px;
+    text-align: center;
+}
+.lista2
+{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(19, 72, 151);
+    margin: 5px;
+}
+.lista3
+{
+  width: 100px;
+  height: 50px;
+  background-color: rgb(79, 5, 163);
+  margin: 5px;
+}
+.lista4
+{
+  width: 100px;
+  height: 50px;
+  background-color: rgb(141, 11, 44);
+  margin: 5px;
+}
+.lista5
+{
+  width: 100px;
+  height: 50px;
+  background-color: rgb(127, 151, 17);
+  margin: 5px;
+}
+.lista6
+{
+  width: 100px;
+  height: 50px;
+  background-color: rgb(28, 153, 12);
+  margin: 5px;
+}

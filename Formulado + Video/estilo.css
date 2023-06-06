@@ -1,0 +1,54 @@
+h1
+{
+    font-family: Arial, sans-serif;
+}
+form 
+{
+    
+    width: 100%;
+    padding: 35px;
+    max-width: 600px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    color: white;
+}
+
+label 
+{
+    margin-bottom: 20px;
+    font-size: arial;
+}
+
+input[type=text], textarea 
+{
+    background-color: white;
+    font-size: arial;
+    margin-bottom: 20px;
+    width: 100%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+video 
+{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+}
+.Gravar
+{
+    border: 2px solid white;
+    background-color: white;
+    font-size: 20px;
+    color: black;
+}
+.Limpar
+{
+    border: 2px solid red;
+    background-color: red;
+    font-size: 20px;
+    color: black;
+}

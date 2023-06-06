@@ -1,0 +1,48 @@
+h1
+{
+
+    font-family: Arial, sans-serif;
+    font-size: 35px;
+}
+form 
+{
+    padding: 15px;
+    max-width: 550px;
+
+}
+label 
+{
+    
+    font-size: arial;
+    font-size: 20px;
+}
+input[type=text], textarea 
+{
+
+    font-size: arial;
+    margin-bottom: 25px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+button
+{
+
+    font-size: arial;
+    font-size: 30px;
+}
+::placeholder
+{
+
+    font-size: 15px;
+
+}
+input[type=nome]
+{
+    box-sizing: border-box;
+    font-size: arial;
+    margin-bottom: 20px;
+    font-size: 20px;
+    background-color: red;
+}

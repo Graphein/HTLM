@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title> Formulário com vídeo</title>
+</head>
+<body>
+
+    <br>
+    <br>
+	<h1> Agende a revisão do seu veículo</h1>
+    <video src="videoplayback.mp4" autoplay loop muted></video>
+    <br>
+	<form method="post" action="enviar.php">
+        <br>
+		<label for="Modelo">Modelo:</label>
+		<input type="text" id="Modelo" name="Modelo">
+        <br>
+        <label for="Marca">Marca:</label>
+		<input type="text" id="Marca" name="Marca">
+		
+        <label for="Ano">Ano:</label>
+		<input type="text" id="Ano" name="Ano">
+		
+        <label for="kilometragem">Kilometragem:</label>
+		<input type="text" id="kilometragem" name="kilometragem">
+		
+        <label for="date">Data:</label>
+        <input type="date" id="date" name="date">
+      
+        <label for="time">Hora:</label>
+        <input type="time" id="time" name="time">
+        <br>
+        <br>
+        <button class="Gravar" type="button"
+         onclick="alert('Seus dados foram armazenados')">Gravar</button>
+         <button class="Limpar" type="reset"
+         onclick="alert('Deseja limpar os dados')">Limpar</button>
+	</form>
+</body>
+</html>

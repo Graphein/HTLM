@@ -1,0 +1,54 @@
+h1
+{
+
+    text-align: center;
+}
+form 
+{
+    
+    
+    margin: 50px auto;
+    width: 80%;
+    padding: 25px;
+    max-width: 250px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+label 
+{
+    margin-bottom: 20px;
+    font-size: arial;
+    font-size: 20px;
+}
+
+input[type=text], textarea 
+{
+    font-size: arial;
+    margin-bottom: 20px;
+    width: 100%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+.azul
+{
+
+    border: 2px solid blue;
+    background-color: blue;
+    font-size: 20px;
+    color: #fff;
+}
+.verde
+{
+    border: 2px solid green;
+    background-color: green;
+    font-size: 20px;
+    color: #fff;
+}
+::placeholder
+{
+
+font-size: 15px;
+font-family: Arial, sans-serif;
+}
